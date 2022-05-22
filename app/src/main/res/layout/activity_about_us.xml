@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".About_Us"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/pp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/log" />
+
+        <TextView
+            android:id="@+id/cn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="85dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="MemersHub"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important Note"
+        android:layout_marginTop="15dp"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our goal is to remove any technical or financial barriers that can prevent you from making your own website. Our powerful tools empower individuals and business owners to create a website, sell online, or reach global audiences. Whether you're a beginner or website expert, we're excited to help you on your journey!"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+</ScrollView>

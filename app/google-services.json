@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563846300891",
+    "project_id": "memesharerapp",
+    "storage_bucket": "memesharerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563846300891:android:1f6559ba5febbf536ff8fe",
+        "android_client_info": {
+          "package_name": "com.example.multiapiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563846300891-o1rbcmo6iti9jnntgs5lmfbuv49i4607.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTiPHkPuQ6Vz4nBMAHTJjbWjfUYzCvoN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563846300891-o1rbcmo6iti9jnntgs5lmfbuv49i4607.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FeedBack"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/pp">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/mh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get In Touch"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mh" />
+
+    <EditText
+        android:id="@+id/fi"
+        android:layout_width="298dp"
+        android:layout_height="43dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="name"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fn" />
+
+    <TextView
+        android:id="@+id/em"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Email Adress"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fi" />
+
+    <EditText
+        android:id="@+id/emi"
+        android:layout_width="298dp"
+        android:layout_height="43dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="email@gmail.com"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/em" />
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Subject"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emi" />
+
+    <EditText
+        android:id="@+id/si"
+        android:layout_width="308dp"
+        android:layout_height="46dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="update system"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub" />
+    <TextView
+        android:id="@+id/mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Message"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/si" />
+
+    <EditText
+        android:id="@+id/mi"
+        android:layout_width="377dp"
+        android:layout_height="214dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mes"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:hint="abc my problem ......."/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumbit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mi" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
